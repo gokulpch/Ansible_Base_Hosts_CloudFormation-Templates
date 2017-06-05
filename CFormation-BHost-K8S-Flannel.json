@@ -170,7 +170,7 @@
       "apt-get -y install git\n",
       "sudo apt-get -y install python-pip ansible awscli\n",
       "pip install -U boto\n",
-      "cd /root/.; sudo git clone https://github.com/gokulpch/Kubernetes_AWS_Flannel_Ansible-BOTO.git\n",
+      "cd /root/.; sudo git clone https://github.com/gokulpch/Kubernetes_AWS_Flannel_Ansible-Boto.git\n",
       "echo 'export 'ANSIBLE_HOST_KEY_CHECKING'='False>>/root/.bashrc\n",
       "source /root/.bashrc\n",
       "export ANSIBLE_HOST_KEY_CHECKING=False\n"

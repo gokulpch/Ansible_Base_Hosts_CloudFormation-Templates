@@ -182,6 +182,8 @@
       "sed -i 's/^StrictModes.*/#StrictModes/g' /etc/ssh/sshd_config\n",
       "sed -i 's/^PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config\n",
       "echo 'root:contrail1' | chpasswd\n",
+      "hostnamectl set-hostname build-host\n",
+      "echo '127.0.0.1 build-host'>>/etc/hosts\n",
       "systemctl restart sshd\n",
       "apt-get update\n",
       "apt-get -y install git\n",

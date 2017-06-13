@@ -19,8 +19,8 @@
 
   "Mappings" : {
     "SubnetConfig" : {
-      "VPC"     : { "CIDR" : "10.49.0.0/16" },
-      "BaseNetwork"  : { "CIDR" : "10.49.0.0/24" }
+      "VPC"     : { "CIDR" : "10.45.0.0/16" },
+      "BaseNetwork"  : { "CIDR" : "10.45.0.0/24" }
     },
     
     "RegionMap" : {
